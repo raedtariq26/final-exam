@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            margin: 0%;
+
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 40px;
+            background-color: blueviolet;
+        }
+        .title{
+            font-size: 25px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            background-color: azure;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.596);
+        }
+        input {
+            font-size: 20px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        label {
+            font-size: 20px;
+        }
+        input[type=sumbit] {
+            background-color: blueviolet;
+            border: 0.1px solid black;
+        }
+        input[type=sumbit]:hover {
+            background-color: rgb(184, 22, 149);
+            cursor: pointer;
+            transition-duration: .5;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+        log in
+
+    </div>
+    <form action="">
+        <label for="email">email</label>
+        <input type="email" name="email" id="email">
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <input type="submit" value="login">
+    </form>
+  </div>  
+</body>
+</html>
